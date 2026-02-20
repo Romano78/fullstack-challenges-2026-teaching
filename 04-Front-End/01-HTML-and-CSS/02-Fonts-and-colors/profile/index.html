@@ -3,33 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Romain Pena Ruiz</title>
   </head>
   <body>
-    <header>
+    <header class="container py">
       <h1>Hello, I'm Romain 🤘</h1>
     </header>
     <main>
-      <section>
-        <img
-          width="200"
-          height="200"
-          src="images/profile_pic.JPEG"
-          alt="Romain smiling"
-        />
-        <p>
-          I love Github, UX/UI Design, web-development and motorbikes 🏍️. I
-          launched Le Wagon to teach code to entrepreneurs and creative people
-          around the world 🌍.
-        </p>
-        <a href="#">Discover Le Wagon</a>
-        <h3>Follow Me</h3>
-        <ul>
-          <li><a href="">insta</a></li>
-          <li><a href="">facebook</a></li>
-          <li><a href="">twitter</a></li>
-        </ul>
+      <section class="container">
+        <div class="profile_image-container">
+          <img
+            width="600"
+            height="600"
+            src="images/profile_pic.JPEG"
+            alt="Romain smiling"
+            class="profile-image"
+          />
+        </div>
+        <section class="py">
+          <p>
+            I love Github, UX/UI Design, web-development and motorbikes 🏍️. I
+            launched Le Wagon to teach code to entrepreneurs and creative people
+            around the world 🌍.
+          </p>
+          <a href="#" style="margin-bottom: 50px">Discover Le Wagon</a>
+        </section>
       </section>
     </main>
+    <footer class="py footer px">
+      <h3 style="flex: 1">Follow Me</h3>
+      <ul>
+        <li><a href="">insta</a></li>
+        <li><a href="">facebook</a></li>
+        <li><a href="">twitter</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
